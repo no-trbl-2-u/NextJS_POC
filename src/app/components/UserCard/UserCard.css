@@ -1,0 +1,28 @@
+.user-card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 25px;
+  
+  box-shadow: 4px 4px 4px black;
+}
+
+.user-card-top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  img {
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+}
+
+.user-card-bottom {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    margin: 0;
+  }
+}

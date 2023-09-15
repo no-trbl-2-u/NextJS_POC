@@ -1,0 +1,21 @@
+.layout-navbar {
+  position: sticky;
+  top: 0;
+  height: 50px;
+  background-color: lightgray;
+  width: 100%;
+  display: flex;
+
+  a {
+    padding: 20px;
+    justify-content: space-around;
+  }
+}
+
+.layout-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 20px;
+  background-color: lightgray;
+}
